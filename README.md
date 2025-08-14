@@ -1,69 +1,41 @@
-# React + TypeScript + Vite
+<img src="public/assets/ui/logo-white.png" alt="Não encontrada" style="margin-left: 50%; transform: translate(-50%, 0px)">
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+# Projeto B7Store
+O projeto B7Store é um projeto do curso B7Web, curso do Bonieky.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+O professor fez o projeto para ser full stack, trabalhando a parte front end com React e a back-end com Node. O projeto é dividido partes diferentes e terá repositórios diferentes.
 
-## Expanding the ESLint configuration
+[Front-End](https://github.com/Lucasdefilippo/B7Front)<br>
+[Back-End]() -> Ainda será feito.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+# Frameworks e libs utilizadas no projeto
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+- React
+- TypeScript
+- TailwindCSS
+- Axios
+- Zustand
+- Zod
+- React-Router
+- Vite (O Professor usa Next, o que gera alguma mudanças no meu código.)
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+# Cores utilizadas no projeto
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+As cores foram utilizadas apartir do TailwindCSS então, deixarei também a classe delas.
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+- gray-200 : `#e5e7eb`
+- gray-500 : `#6a7282`
+- blue-600 : `#155dfc`
+- black : `#000000`
+- white : `#FFFFFF`
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+# Font utilizada
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+A fonte utilizada é em todo o projeto é a Poppins, em pesos diferentes. [400, 500, 700 e 800]
+
+- [Poppins](https://fonts.google.com/specimen/Poppins)
+
+# Agradecimento
+
+Agradeço a oportunidade e os eninamentos dados pela [B7WEB](https://app.b7web.com.br/)
