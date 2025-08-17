@@ -21,7 +21,7 @@ export const ProductComponent = ({ data }: Props) => {
         <div className="size-12 border border-gray-200 rounded-sm flex justify-center items-center cursor-pointer">
           {!currentLiked && (
             <img
-              src="assets/ui/heart-3-line.png"
+              src="/assets/ui/heart-3-line.png"
               alt="Heart"
               height={24}
               width={24}
@@ -30,7 +30,7 @@ export const ProductComponent = ({ data }: Props) => {
           )}
           {currentLiked && (
             <img
-              src="assets/ui/heart-3-fill.png"
+              src="/assets/ui/heart-3-fill.png"
               alt="Heart"
               height={24}
               width={24}
